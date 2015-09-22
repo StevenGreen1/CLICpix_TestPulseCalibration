@@ -30,7 +30,7 @@ MaskContainer::MaskContainer(std::string fileName, int gridSize, std::string plo
         {
             for (int i = 0; i < m_GridSize; i++)
             {
-                std::pair<int,int> maskedPixel = std::make_pair<int,int>(y,i);
+                std::pair<int,int> maskedPixel = std::make_pair<int,int>(x,i);
                 m_MaskedPixels.push_back(maskedPixel);
             }
         }
